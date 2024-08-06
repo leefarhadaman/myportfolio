@@ -481,77 +481,11 @@ a.btn-main:hover span {
   border-radius: 10px;
 }
 
-#hire h2 {
+ #hire h2 {
   font-size: 20px;
   font-weight: 800;
   color: #292423;
   margin-bottom: 40px;
-}
-
-form {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  max-width: 400px;
-  width: 100%;
-}
-
-.form-group {
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-.form-textfield-row{
-  display: flex;
-  margin: 20px;
-}
-/* Style text fields */
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-  width: 100%;
-  padding: 15px;
-  border: none;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 15px;
-  outline: none;
-  transition: background-color 0.3s;
-}
-
-/* Placeholder style */
-input[type="text"]::placeholder,
-input[type="email"]::placeholder,
-input[type="tel"]::placeholder {
-  color: #999;
-}
-
-/* Style button */
-button {
-  width: 60%;
-  background-color: #292423;
-  color: #fff;
-  border: none;
-  padding: 15px;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #1a1615;
-}
-
-@media (max-width: 768px) {
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"] {
-    width: 100%;
-  }
-
-  .form-textfield-row{
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .hire-section h2 {
